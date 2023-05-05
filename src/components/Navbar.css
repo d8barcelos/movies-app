@@ -40,3 +40,44 @@
     background-color: transparent;
     color: #387dff;
 }
+
+@media screen and (max-width: 474px) {
+    #navbar input {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    #navbar h2 a {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    #navbar input {
+        width: 125px;
+    }
+
+    #navbar h2 a {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    #navbar input {
+        width: 100px;
+    }
+
+    #navbar h2 a {
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #navbar input {
+        width: 160px;
+    }
+
+    #navbar h2 a {
+        display: none;
+    }
+}
